@@ -16,7 +16,7 @@
                 <directory>doc/</directory>
                 <includes>
                     <include>AUTHORS</include>
-                    <include>COPYING</include>
+                    <include>LICENSE.txt</include>
                 </includes>
             </resource>
             <resource>

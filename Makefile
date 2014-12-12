@@ -17,3 +17,6 @@ javadoc:
 
 clean:
 	mvn clean
+
+format:
+	find src -regex '.*\.java' | xargs astyle --options=astylerc

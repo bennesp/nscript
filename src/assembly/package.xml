@@ -1,3 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This source file is part of NScript, released under BSD-modern.
+
+Copyright (C) 2014 Stefano Sanfilippo
+
+See README.* at top level for copying, contacts, history and notes.
+-->
 <assembly
     xmlns="http://maven.apache.org/plugins/maven-assembly-plugin/assembly/1.1.2"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"

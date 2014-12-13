@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--
+This source file is part of NScript, released under BSD-modern.
+
+Copyright (C) 2014 Stefano Sanfilippo
+
+See README.* at top level for copying, contacts, history and notes.
+-->
 <project
     xmlns="http://maven.apache.org/POM/4.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"

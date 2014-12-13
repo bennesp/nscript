@@ -4,20 +4,16 @@
 #
 #
 # This is provided only for *nix convenience, real
-# build is handled by Apache Ant
+# build is handled by Apache Maven
 #
 
-all:
-	ant prebuilt
+default: clean dist
+
+dist:
+	mvn package assembly:single
+
+javadoc:
+	mvn javadoc:javadoc
 
 clean:
-	ant clean
-
-prebuilt:
-	ant prebuilt
-
-doc:
-	ant javadoc
-
-install:
-	ant install
+	mvn clean

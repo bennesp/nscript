@@ -4,4 +4,4 @@
 # package for more information
 #
 
-java -jar ./nscript.jar
+java -jar ./nscript-*.jar

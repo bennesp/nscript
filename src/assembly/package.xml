@@ -1,0 +1,49 @@
+<assembly
+    xmlns="http://maven.apache.org/plugins/maven-assembly-plugin/assembly/1.1.2"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/plugins/maven-assembly-plugin/assembly/1.1.2 http://maven.apache.org/xsd/assembly-1.1.2.xsd"
+>
+    <id>package</id>
+    <formats>
+        <format>tar.gz</format>
+        <format>tar.bz2</format>
+        <format>zip</format>
+    </formats>
+    <fileSets>
+        <fileSet>
+            <directory>${project.basedir}</directory>
+            <outputDirectory>/doc</outputDirectory>
+            <includes>
+                <include>README.md</include>
+                <include>LICENSE.txt</include>
+                <include>AUTHORS</include>
+                <include>ChangeLog.old.md</include>
+            </includes>
+        </fileSet>
+        <fileSet>
+            <directory>${project.basedir}/scripts</directory>
+            <fileMode>0755</fileMode>
+            <outputDirectory>/</outputDirectory>
+            <includes>
+                <include>nscript.*</include>
+                <include>fixnss.py</include>
+            </includes>
+        </fileSet>
+        <fileSet>
+            <directory>${project.basedir}/resources</directory>
+            <outputDirectory>/</outputDirectory>
+            <includes>
+                <include>lib/</include>
+                <include>settings/</include>
+                <include>examples/</include>
+            </includes>
+        </fileSet>
+        <fileSet>
+            <directory>${project.build.directory}</directory>
+            <outputDirectory>/</outputDirectory>
+            <includes>
+                <include>nscript-*.jar</include>
+            </includes>
+        </fileSet>
+    </fileSets>
+</assembly>

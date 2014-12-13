@@ -1,4 +1,4 @@
-build
-.junk
-out
-.idea
+/target
+/.junk
+/.idea
+/nscript.iml

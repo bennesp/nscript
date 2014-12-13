@@ -58,13 +58,9 @@ JUST DO IT!
 
 Issue:
 
-    ant clean prebuilt
+    mvn package assembly:single
 
-and you will get a nice `nscript-*.zip` file ready to ship, unpack, send &co.
-
-If you'd rather have your files installed in the top level folder, use:
-
-    ant clean install
+and you will get a nice `target/nscript-*.{zip,gz,bz2}` file ready to ship, unpack, send &co.
 
 The build process should last less than a minute (much less).
 
@@ -75,9 +71,8 @@ The build system is integrated with a Makefile, so that the installation
 boils down to the familiar:
 
     make
-    make install
 
-*NOTE*: that's only a convenience, you will need Apache Ant and a JDK anyway.
+*NOTE*: that's only a convenience, you will need Apache Maven and a JDK anyway.
 
 Caveats
 =======

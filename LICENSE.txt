@@ -1,5 +1,5 @@
 Copyright (c) 2000, Enrique Campos Nanez
-Copyright (c) 2012, Stefano Sanfilippo
+Copyright (c) 2012,2014 Stefano Sanfilippo
 Copyright (c) 2014, Luca Morreale
 
 

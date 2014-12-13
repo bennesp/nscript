@@ -2,7 +2,7 @@
  * This source file is part of NScript, released under BSD-modern.
  *
  * Copyright (C) 2000-2001 Enrique Campos-Nanez
- * Copyright (C) 2012 Stefano Sanfilippo
+ * Copyright (C) 2012,2014 Stefano Sanfilippo
  * Copyright (C) 2014 Luca Morreale
  *
  * See README.* at top level for copying, contacts, history and notes.

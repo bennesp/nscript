@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2012 Stefano Sanfilippo.
+# Copyright (C) 2012,2014 Stefano Sanfilippo.
 # See COPYING at top level for more information.
 #
 #

@@ -1,6 +1,6 @@
 #! /usr/bin/python
 #
-# Copyright (C) 2012 Stefano Sanfilippo.
+# Copyright (C) 2012,2014 Stefano Sanfilippo.
 # See COPYING in the main source package for more information
 #
 

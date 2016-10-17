@@ -594,7 +594,8 @@ public class TclSnippet extends Object implements Serializable {
                 }
             }catch(ClassCastException e){
                 LOG.warning("Tries to add an inappropriate object to a Map");
-            }
+            }catch(java.lang.NullPointerException e){
+						}
         }
     }
         

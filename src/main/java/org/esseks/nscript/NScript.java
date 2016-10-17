@@ -502,7 +502,7 @@ public class NScript extends JFrame {
                         return;
                     }
                     if (s.isRelation()) {
-                        or = new NSRelation(s, br.readLine(), null, null);
+                        or = new NSRelation(s, br.readLine(), new NSEntity(s, null, 0.0, 0.0), new NSEntity(s, null, 0.0, 0.0));
                         s.instantiateNSObject(or);
                         or.fromString(br, this.model);
                         this.model.addObject(or);
